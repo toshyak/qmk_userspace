@@ -2,5 +2,5 @@
 #define ENCODER_RESOLUTION 4
 
 #ifndef TAPPING_TERM
-#    define TAPPING_TERM 150
+#    define TAPPING_TERM 180
 #endif // TAPPING_TERM
