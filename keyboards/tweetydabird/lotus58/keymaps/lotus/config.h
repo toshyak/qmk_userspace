@@ -4,3 +4,5 @@
 #ifndef TAPPING_TERM
 #    define TAPPING_TERM 180
 #endif // TAPPING_TERM
+
+#define HOLD_ON_OTHER_KEY_PRESS
