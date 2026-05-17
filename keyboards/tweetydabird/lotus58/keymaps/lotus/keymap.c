@@ -17,6 +17,13 @@ enum custom_keycodes {
     HYPER_F19 = MT((MOD_LCTL | MOD_LALT | MOD_LSFT | MOD_LGUI), KC_F19)
 };
 
+// 0 + - rolled together -> = (Shift gives +)
+const uint16_t PROGMEM equal_combo[] = {KC_0, KC_MINS, COMBO_END};
+
+combo_t key_combos[] = {
+    COMBO(equal_combo, KC_EQL),
+};
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
         KC_ESC,   KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_MPLY,        KC_MPLY, KC_6,    KC_7,     KC_8,    KC_9,    KC_0,    KC_MINS,
