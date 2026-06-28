@@ -2,11 +2,11 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 #include QMK_KEYBOARD_H
 
-const key_override_t ctrl_esc_override  = ko_make_basic(MOD_MASK_CTRL, KC_ESC, KC_GRV);
+const key_override_t alt_esc_override   = ko_make_basic(MOD_MASK_ALT, KC_ESC, KC_GRV);
 const key_override_t shift_esc_override = ko_make_basic(MOD_MASK_SHIFT, KC_ESC, S(KC_GRV));
 
 const key_override_t *key_overrides[] = {
-    &ctrl_esc_override,
+    &alt_esc_override,
     &shift_esc_override,
     NULL
 };
