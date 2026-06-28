@@ -6,3 +6,5 @@
 #endif // TAPPING_TERM
 
 #define HOLD_ON_OTHER_KEY_PRESS
+
+#define LAYER_IDLE_TIMEOUT_MS 10000
